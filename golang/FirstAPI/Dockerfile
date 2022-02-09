@@ -1,5 +1,7 @@
 FROM golang:alpine
 
+EXPOSE 80
+
 RUN mkdir /app
 COPY . /app
 
